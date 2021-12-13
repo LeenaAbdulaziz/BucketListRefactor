@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import CoreData
 
 class BucketListViewController: UITableViewController , AddItemViewControllerDelegate {
     
     var items = ["Go To Moon","Eat a Candy Bar","Swim in Amazon","Run A way"]
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
